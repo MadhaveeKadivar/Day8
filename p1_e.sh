@@ -1,3 +1,4 @@
+# e. Find the number that reached maximum times and the one that was for minimum times
 echo "Dice rolling ...."
 declare -A result
 no1=0
