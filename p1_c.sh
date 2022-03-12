@@ -1,3 +1,4 @@
+# c. Store the result in a dictionary
 echo "Dice rolling..."
 i=1
 declare -A results
