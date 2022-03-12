@@ -1,3 +1,4 @@
+# d. Repeat till any one of the number has reached 10 times
 echo "Dice rolling ...."
 declare -A result
 no1=0
