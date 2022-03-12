@@ -1,3 +1,7 @@
+# Write a Program to generate a birth month of 50 individuals between the
+# year 92 & 93. Find all the individuals having birthdays in the same month.
+# Store it to finally print.
+
 declare -A personage
 for((i=1;i<=50;i++))
 do
