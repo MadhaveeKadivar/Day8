@@ -14,14 +14,12 @@ do
 done
 for j in ${montharray[*]}
 do
-	a=0
 	echo -n "Person Number "
 	for k in ${!personage[*]}
 	do
 		if((${personage[$k]}==$j))
 		then
 			echo -n "$k "
-			a=$(($a+1))
 		fi
 	done
 	echo " ->  Birth month number =  $j"
